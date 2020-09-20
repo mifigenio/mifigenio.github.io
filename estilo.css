@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+html, body{
+    margin: 0;
+}
+header{
+    background-color: #000000; 
+    height: 70px; 
+    width: 100%;
+    position: fixed;  
+    z-index: 10;
+}
+#logo{
+    width: 60px;
+    position: absolute;
+    top: 5px;
+    margin-left: 0.5%;
+}
+#menu{
+    float: right;
+    margin-right: 0.5%;
+    list-style: none;
+    margin-top: 0%;
+    font-family: 'Spartan', sans-serif;
+}
+#creditos{
+    text-align: left;
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    background-size: cover;
+    text-decoration: none;
+}
+li{
+    float: left;
+    padding: 25 10 25 10;
+
+}
+li:hover{
+    background-color: #55a5ff; 
+}
+#imagem_fundo {
+    background: url("img/gota.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo{
+    color:#ffffff;
+    font-family: 'Spartan', sans-serif;
+    padding-top: 20%;
+    font-size: 600%;
+    line-height:0,6;
+    letter-spacing: -5px;
+}
+#subtitulo{
+    color:#ffffff;
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+    border-top: 3px solid #ffffff;
+    margin-left: 31%;
+    margin-right: 31%;
+    text-shadow: 2px 2px #000000;
+}
+#saiba_mais {
+    text-decoration: none;
+    border: 5px #ffffff double;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+    padding: 5px 10px 5px 10px;
+    color:#ffffff;
+    text-shadow: 1px 1px #000000;
+    box-shadow: 2px 2px #000000;
+}
+#origem{
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    padding: 1%;
+    background-size: cover;
+    text-indent: 30px;
+    text-decoration: none;
+}
+#video{
+    display: block;
+    text-align: center;
+}
+#problema{
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    background-size: cover;
+    text-indent: 30px;
+    text-decoration: none;
+}
+#solucao{
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    background-size: cover;
+    text-indent: 30px;
+    text-decoration: none;
+}
+#sobre{
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    background-size: cover;
+    text-indent: 30px;
+    text-decoration: none;
+}
+#referencias{
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    text-indent: 15px;
+    text-decoration: none;
+}
+#iconee{
+    height: 25%;
+    padding: 5% 2%;
+}
+.icone{
+    width: 50px;
+}
+.destaque{
+    background-color: #cac4b5;
+}
+
+.coluna{
+    float: left;
+    position: relative;
+}
+
+.dois{
+    padding: 0 5%;
+    width: 40%;
+}
+.tres{
+    padding:3% 3%;
+    width: 27%;
+}
+
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.esquerda{
+    text-align: left;
+}
+section{
+    padding: 1%;
+    float: left;
+}
+footer{
+    background-color:  #55a5ff;
+    float: left;
+    width: 100%;
+}
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 0;
+        transform: translateX(-50%);
+    }
+}
+
